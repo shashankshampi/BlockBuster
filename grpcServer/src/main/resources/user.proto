@@ -1,12 +1,17 @@
+// Syntax declaration
 syntax = "proto3";
 
+// Package declaration
 option java_package = "com.company.grpc";
 
+// Import statements
+
+//Service definition
 service user{
     rpc login(LoginRequest)  returns (APIResponse);
     rpc logout(Empty)  returns (APIResponse);
 }
-
+// Message definition
 message LoginRequest{
        string username = 1 ;
        string password = 2 ;
