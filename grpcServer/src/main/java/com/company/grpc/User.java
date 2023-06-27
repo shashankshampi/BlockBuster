@@ -112,15 +112,15 @@ public final class User {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return User.internal_static_LoginRequest_descriptor;
+      return com.company.grpc.User.internal_static_LoginRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return User.internal_static_LoginRequest_fieldAccessorTable
+      return com.company.grpc.User.internal_static_LoginRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              User.LoginRequest.class, User.LoginRequest.Builder.class);
+              com.company.grpc.User.LoginRequest.class, com.company.grpc.User.LoginRequest.Builder.class);
     }
 
     public static final int USERNAME_FIELD_NUMBER = 1;
@@ -236,10 +236,10 @@ public final class User {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof User.LoginRequest)) {
+      if (!(obj instanceof com.company.grpc.User.LoginRequest)) {
         return super.equals(obj);
       }
-      User.LoginRequest other = (User.LoginRequest) obj;
+      com.company.grpc.User.LoginRequest other = (com.company.grpc.User.LoginRequest) obj;
 
       boolean result = true;
       result = result && getUsername()
@@ -266,69 +266,69 @@ public final class User {
       return hash;
     }
 
-    public static User.LoginRequest parseFrom(
+    public static com.company.grpc.User.LoginRequest parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static User.LoginRequest parseFrom(
+    public static com.company.grpc.User.LoginRequest parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static User.LoginRequest parseFrom(
+    public static com.company.grpc.User.LoginRequest parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static User.LoginRequest parseFrom(
+    public static com.company.grpc.User.LoginRequest parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static User.LoginRequest parseFrom(byte[] data)
+    public static com.company.grpc.User.LoginRequest parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static User.LoginRequest parseFrom(
+    public static com.company.grpc.User.LoginRequest parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static User.LoginRequest parseFrom(java.io.InputStream input)
+    public static com.company.grpc.User.LoginRequest parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static User.LoginRequest parseFrom(
+    public static com.company.grpc.User.LoginRequest parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static User.LoginRequest parseDelimitedFrom(java.io.InputStream input)
+    public static com.company.grpc.User.LoginRequest parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static User.LoginRequest parseDelimitedFrom(
+    public static com.company.grpc.User.LoginRequest parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static User.LoginRequest parseFrom(
+    public static com.company.grpc.User.LoginRequest parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static User.LoginRequest parseFrom(
+    public static com.company.grpc.User.LoginRequest parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -341,7 +341,7 @@ public final class User {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(User.LoginRequest prototype) {
+    public static Builder newBuilder(com.company.grpc.User.LoginRequest prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -362,21 +362,21 @@ public final class User {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:LoginRequest)
-        User.LoginRequestOrBuilder {
+        com.company.grpc.User.LoginRequestOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return User.internal_static_LoginRequest_descriptor;
+        return com.company.grpc.User.internal_static_LoginRequest_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return User.internal_static_LoginRequest_fieldAccessorTable
+        return com.company.grpc.User.internal_static_LoginRequest_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                User.LoginRequest.class, User.LoginRequest.Builder.class);
+                com.company.grpc.User.LoginRequest.class, com.company.grpc.User.LoginRequest.Builder.class);
       }
 
-      // Construct using com.yrrhelp.grpc.User.LoginRequest.newBuilder()
+      // Construct using com.company.grpc.User.LoginRequest.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -404,17 +404,17 @@ public final class User {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return User.internal_static_LoginRequest_descriptor;
+        return com.company.grpc.User.internal_static_LoginRequest_descriptor;
       }
 
       @java.lang.Override
-      public User.LoginRequest getDefaultInstanceForType() {
-        return User.LoginRequest.getDefaultInstance();
+      public com.company.grpc.User.LoginRequest getDefaultInstanceForType() {
+        return com.company.grpc.User.LoginRequest.getDefaultInstance();
       }
 
       @java.lang.Override
-      public User.LoginRequest build() {
-        User.LoginRequest result = buildPartial();
+      public com.company.grpc.User.LoginRequest build() {
+        com.company.grpc.User.LoginRequest result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -422,8 +422,8 @@ public final class User {
       }
 
       @java.lang.Override
-      public User.LoginRequest buildPartial() {
-        User.LoginRequest result = new User.LoginRequest(this);
+      public com.company.grpc.User.LoginRequest buildPartial() {
+        com.company.grpc.User.LoginRequest result = new com.company.grpc.User.LoginRequest(this);
         result.username_ = username_;
         result.password_ = password_;
         onBuilt();
@@ -464,16 +464,16 @@ public final class User {
       }
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof User.LoginRequest) {
-          return mergeFrom((User.LoginRequest)other);
+        if (other instanceof com.company.grpc.User.LoginRequest) {
+          return mergeFrom((com.company.grpc.User.LoginRequest)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(User.LoginRequest other) {
-        if (other == User.LoginRequest.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.company.grpc.User.LoginRequest other) {
+        if (other == com.company.grpc.User.LoginRequest.getDefaultInstance()) return this;
         if (!other.getUsername().isEmpty()) {
           username_ = other.username_;
           onChanged();
@@ -497,11 +497,11 @@ public final class User {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        User.LoginRequest parsedMessage = null;
+        com.company.grpc.User.LoginRequest parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (User.LoginRequest) e.getUnfinishedMessage();
+          parsedMessage = (com.company.grpc.User.LoginRequest) e.getUnfinishedMessage();
           throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
@@ -665,12 +665,12 @@ public final class User {
     }
 
     // @@protoc_insertion_point(class_scope:LoginRequest)
-    private static final User.LoginRequest DEFAULT_INSTANCE;
+    private static final com.company.grpc.User.LoginRequest DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new User.LoginRequest();
+      DEFAULT_INSTANCE = new com.company.grpc.User.LoginRequest();
     }
 
-    public static User.LoginRequest getDefaultInstance() {
+    public static com.company.grpc.User.LoginRequest getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -695,7 +695,7 @@ public final class User {
     }
 
     @java.lang.Override
-    public User.LoginRequest getDefaultInstanceForType() {
+    public com.company.grpc.User.LoginRequest getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -793,15 +793,15 @@ public final class User {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return User.internal_static_APIResponse_descriptor;
+      return com.company.grpc.User.internal_static_APIResponse_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return User.internal_static_APIResponse_fieldAccessorTable
+      return com.company.grpc.User.internal_static_APIResponse_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              User.APIResponse.class, User.APIResponse.Builder.class);
+              com.company.grpc.User.APIResponse.class, com.company.grpc.User.APIResponse.Builder.class);
     }
 
     public static final int RESPONSEMESSAGE_FIELD_NUMBER = 1;
@@ -893,10 +893,10 @@ public final class User {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof User.APIResponse)) {
+      if (!(obj instanceof com.company.grpc.User.APIResponse)) {
         return super.equals(obj);
       }
-      User.APIResponse other = (User.APIResponse) obj;
+      com.company.grpc.User.APIResponse other = (com.company.grpc.User.APIResponse) obj;
 
       boolean result = true;
       result = result && getResponsemessage()
@@ -923,69 +923,69 @@ public final class User {
       return hash;
     }
 
-    public static User.APIResponse parseFrom(
+    public static com.company.grpc.User.APIResponse parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static User.APIResponse parseFrom(
+    public static com.company.grpc.User.APIResponse parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static User.APIResponse parseFrom(
+    public static com.company.grpc.User.APIResponse parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static User.APIResponse parseFrom(
+    public static com.company.grpc.User.APIResponse parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static User.APIResponse parseFrom(byte[] data)
+    public static com.company.grpc.User.APIResponse parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static User.APIResponse parseFrom(
+    public static com.company.grpc.User.APIResponse parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static User.APIResponse parseFrom(java.io.InputStream input)
+    public static com.company.grpc.User.APIResponse parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static User.APIResponse parseFrom(
+    public static com.company.grpc.User.APIResponse parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static User.APIResponse parseDelimitedFrom(java.io.InputStream input)
+    public static com.company.grpc.User.APIResponse parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static User.APIResponse parseDelimitedFrom(
+    public static com.company.grpc.User.APIResponse parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static User.APIResponse parseFrom(
+    public static com.company.grpc.User.APIResponse parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static User.APIResponse parseFrom(
+    public static com.company.grpc.User.APIResponse parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -998,7 +998,7 @@ public final class User {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(User.APIResponse prototype) {
+    public static Builder newBuilder(com.company.grpc.User.APIResponse prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -1019,21 +1019,21 @@ public final class User {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:APIResponse)
-        User.APIResponseOrBuilder {
+        com.company.grpc.User.APIResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return User.internal_static_APIResponse_descriptor;
+        return com.company.grpc.User.internal_static_APIResponse_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return User.internal_static_APIResponse_fieldAccessorTable
+        return com.company.grpc.User.internal_static_APIResponse_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                User.APIResponse.class, User.APIResponse.Builder.class);
+                com.company.grpc.User.APIResponse.class, com.company.grpc.User.APIResponse.Builder.class);
       }
 
-      // Construct using com.yrrhelp.grpc.User.APIResponse.newBuilder()
+      // Construct using com.company.grpc.User.APIResponse.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -1061,17 +1061,17 @@ public final class User {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return User.internal_static_APIResponse_descriptor;
+        return com.company.grpc.User.internal_static_APIResponse_descriptor;
       }
 
       @java.lang.Override
-      public User.APIResponse getDefaultInstanceForType() {
-        return User.APIResponse.getDefaultInstance();
+      public com.company.grpc.User.APIResponse getDefaultInstanceForType() {
+        return com.company.grpc.User.APIResponse.getDefaultInstance();
       }
 
       @java.lang.Override
-      public User.APIResponse build() {
-        User.APIResponse result = buildPartial();
+      public com.company.grpc.User.APIResponse build() {
+        com.company.grpc.User.APIResponse result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -1079,8 +1079,8 @@ public final class User {
       }
 
       @java.lang.Override
-      public User.APIResponse buildPartial() {
-        User.APIResponse result = new User.APIResponse(this);
+      public com.company.grpc.User.APIResponse buildPartial() {
+        com.company.grpc.User.APIResponse result = new com.company.grpc.User.APIResponse(this);
         result.responsemessage_ = responsemessage_;
         result.responseCode_ = responseCode_;
         onBuilt();
@@ -1121,16 +1121,16 @@ public final class User {
       }
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof User.APIResponse) {
-          return mergeFrom((User.APIResponse)other);
+        if (other instanceof com.company.grpc.User.APIResponse) {
+          return mergeFrom((com.company.grpc.User.APIResponse)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(User.APIResponse other) {
-        if (other == User.APIResponse.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.company.grpc.User.APIResponse other) {
+        if (other == com.company.grpc.User.APIResponse.getDefaultInstance()) return this;
         if (!other.getResponsemessage().isEmpty()) {
           responsemessage_ = other.responsemessage_;
           onChanged();
@@ -1153,11 +1153,11 @@ public final class User {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        User.APIResponse parsedMessage = null;
+        com.company.grpc.User.APIResponse parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (User.APIResponse) e.getUnfinishedMessage();
+          parsedMessage = (com.company.grpc.User.APIResponse) e.getUnfinishedMessage();
           throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
@@ -1278,12 +1278,12 @@ public final class User {
     }
 
     // @@protoc_insertion_point(class_scope:APIResponse)
-    private static final User.APIResponse DEFAULT_INSTANCE;
+    private static final com.company.grpc.User.APIResponse DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new User.APIResponse();
+      DEFAULT_INSTANCE = new com.company.grpc.User.APIResponse();
     }
 
-    public static User.APIResponse getDefaultInstance() {
+    public static com.company.grpc.User.APIResponse getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -1308,7 +1308,7 @@ public final class User {
     }
 
     @java.lang.Override
-    public User.APIResponse getDefaultInstanceForType() {
+    public com.company.grpc.User.APIResponse getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -1377,15 +1377,15 @@ public final class User {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return User.internal_static_Empty_descriptor;
+      return com.company.grpc.User.internal_static_Empty_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return User.internal_static_Empty_fieldAccessorTable
+      return com.company.grpc.User.internal_static_Empty_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              User.Empty.class, User.Empty.Builder.class);
+              com.company.grpc.User.Empty.class, com.company.grpc.User.Empty.Builder.class);
     }
 
     private byte memoizedIsInitialized = -1;
@@ -1421,10 +1421,10 @@ public final class User {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof User.Empty)) {
+      if (!(obj instanceof com.company.grpc.User.Empty)) {
         return super.equals(obj);
       }
-      User.Empty other = (User.Empty) obj;
+      com.company.grpc.User.Empty other = (com.company.grpc.User.Empty) obj;
 
       boolean result = true;
       result = result && unknownFields.equals(other.unknownFields);
@@ -1443,69 +1443,69 @@ public final class User {
       return hash;
     }
 
-    public static User.Empty parseFrom(
+    public static com.company.grpc.User.Empty parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static User.Empty parseFrom(
+    public static com.company.grpc.User.Empty parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static User.Empty parseFrom(
+    public static com.company.grpc.User.Empty parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static User.Empty parseFrom(
+    public static com.company.grpc.User.Empty parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static User.Empty parseFrom(byte[] data)
+    public static com.company.grpc.User.Empty parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static User.Empty parseFrom(
+    public static com.company.grpc.User.Empty parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static User.Empty parseFrom(java.io.InputStream input)
+    public static com.company.grpc.User.Empty parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static User.Empty parseFrom(
+    public static com.company.grpc.User.Empty parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static User.Empty parseDelimitedFrom(java.io.InputStream input)
+    public static com.company.grpc.User.Empty parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static User.Empty parseDelimitedFrom(
+    public static com.company.grpc.User.Empty parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static User.Empty parseFrom(
+    public static com.company.grpc.User.Empty parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static User.Empty parseFrom(
+    public static com.company.grpc.User.Empty parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -1518,7 +1518,7 @@ public final class User {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(User.Empty prototype) {
+    public static Builder newBuilder(com.company.grpc.User.Empty prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -1539,21 +1539,21 @@ public final class User {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:Empty)
-        User.EmptyOrBuilder {
+        com.company.grpc.User.EmptyOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return User.internal_static_Empty_descriptor;
+        return com.company.grpc.User.internal_static_Empty_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return User.internal_static_Empty_fieldAccessorTable
+        return com.company.grpc.User.internal_static_Empty_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                User.Empty.class, User.Empty.Builder.class);
+                com.company.grpc.User.Empty.class, com.company.grpc.User.Empty.Builder.class);
       }
 
-      // Construct using com.yrrhelp.grpc.User.Empty.newBuilder()
+      // Construct using com.company.grpc.User.Empty.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -1577,17 +1577,17 @@ public final class User {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return User.internal_static_Empty_descriptor;
+        return com.company.grpc.User.internal_static_Empty_descriptor;
       }
 
       @java.lang.Override
-      public User.Empty getDefaultInstanceForType() {
-        return User.Empty.getDefaultInstance();
+      public com.company.grpc.User.Empty getDefaultInstanceForType() {
+        return com.company.grpc.User.Empty.getDefaultInstance();
       }
 
       @java.lang.Override
-      public User.Empty build() {
-        User.Empty result = buildPartial();
+      public com.company.grpc.User.Empty build() {
+        com.company.grpc.User.Empty result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -1595,8 +1595,8 @@ public final class User {
       }
 
       @java.lang.Override
-      public User.Empty buildPartial() {
-        User.Empty result = new User.Empty(this);
+      public com.company.grpc.User.Empty buildPartial() {
+        com.company.grpc.User.Empty result = new com.company.grpc.User.Empty(this);
         onBuilt();
         return result;
       }
@@ -1635,16 +1635,16 @@ public final class User {
       }
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof User.Empty) {
-          return mergeFrom((User.Empty)other);
+        if (other instanceof com.company.grpc.User.Empty) {
+          return mergeFrom((com.company.grpc.User.Empty)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(User.Empty other) {
-        if (other == User.Empty.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.company.grpc.User.Empty other) {
+        if (other == com.company.grpc.User.Empty.getDefaultInstance()) return this;
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
         return this;
@@ -1660,11 +1660,11 @@ public final class User {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        User.Empty parsedMessage = null;
+        com.company.grpc.User.Empty parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (User.Empty) e.getUnfinishedMessage();
+          parsedMessage = (com.company.grpc.User.Empty) e.getUnfinishedMessage();
           throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
@@ -1690,12 +1690,12 @@ public final class User {
     }
 
     // @@protoc_insertion_point(class_scope:Empty)
-    private static final User.Empty DEFAULT_INSTANCE;
+    private static final com.company.grpc.User.Empty DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new User.Empty();
+      DEFAULT_INSTANCE = new com.company.grpc.User.Empty();
     }
 
-    public static User.Empty getDefaultInstance() {
+    public static com.company.grpc.User.Empty getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -1720,7 +1720,7 @@ public final class User {
     }
 
     @java.lang.Override
-    public User.Empty getDefaultInstanceForType() {
+    public com.company.grpc.User.Empty getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -1755,7 +1755,7 @@ public final class User {
       "\027\n\017responsemessage\030\001 \001(\t\022\024\n\014responseCode" +
       "\030\002 \001(\005\"\007\n\005Empty2L\n\004user\022$\n\005login\022\r.Login" +
       "Request\032\014.APIResponse\022\036\n\006logout\022\006.Empty\032" +
-      "\014.APIResponseB\022\n\020com.yrrhelp.grpcb\006proto" +
+      "\014.APIResponseB\022\n\020com.company.grpcb\006proto" +
       "3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =

@@ -22,11 +22,11 @@ public class UserService extends userImplBase{
 			
 			 // return success message
 			
-			response.setResponseCode(0).setResponsemessage("SUCCESS");
+			response.setResponseCode(200).setResponsemessage("SUCCESS");
 			
 		}
 		else {
-			response.setResponseCode(100).setResponsemessage("INVALID PASSWORD");
+			response.setResponseCode(400).setResponsemessage("INVALID PASSWORD");
 		}
 		
 		
